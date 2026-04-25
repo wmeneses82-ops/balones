@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+  <link rel="icon" type="image/x-icon" href="taller/images/Ball.ico">
+<h1>Formularios</h1>
+</head>
+
+<body>
+    <nav>       
+        <a 
+        href="index.html">index</a>
+    <nav>
+        <a 
+        href="tablas.html">tablas</a>            
+    <nav>
+        <a 
+        href="listas.html">listas</a>
+    <nav>
+        <a 
+        href="formularios.html">Formularios</a>
+    </nav>
+
+    
+    <h2> Formulario de contactos </h2>
+
+    <fieldset>
+               
+    <label for="Nombre1"> Nombre completo </label>
+    <input type="text" name="NombreCompleto" id="Nombre1" placeholder="Digite nombre completo...">
+    <br>
+    <label for="Tel1"> Número movil </label>
+    <input type="number" name="NumeroMovil" id="Tel1" placeholder="##########">
+    <br>
+    <label for="Fecha"> Fecha de nacimiento </label>
+    <input type="date" name="FechaNacimiento" id="Fecha" min="1950-01-01" value="1950-01-01">
+    <br>
+    <label for="Email"> Email </label>
+    <input type="email" name="Email" id="Email">
+    <br>
+    <label for="Color"> Color favorito </label>
+    <input type="color" name="ColorFavorito" id="Color" value="#ff0000">
+    <br>
+    <label for="Peso"> Peso en (kg) </label>
+    <input type="number" name="NumeroMovil" id="Tel1" placeholder="30">
+    <br>
+    <label for="Contrasena"> Contraseña </label>
+    <input type="password" name="Contrasena" id="Contrasena">
+    <br>
+    <br>
+    <fieldset> 
+        <legend> Estado Civil: </legend>
+   Soltero
+   <input type="radio" name="Estado">
+   <br>
+   Casado
+   <input type="radio" name="Estado">
+   <br>
+   Separado
+   <input type="radio" name="Estado">
+   <br>
+   Viudo
+   <input type="radio" name="Estado">
+   <br>
+   </fieldset>
+   <fieldset>
+       <label for=""> Desea información de: </label>
+   <br>
+   <input type="checkbox" name="" id="datoInformacion"> Deportes
+   <br>
+   <input type="checkbox" name="" id="datoInformacion"> Lenguaje
+   <br>
+   <input type="checkbox" name="" id="datoInformacion"> Política
+   <br>
+   <input type="checkbox" name="" id="datoInformacion"> Tecnología
+   <br>
+   </fieldset>
+    <br>
+    <label for="Ciudad"> Seleccionar ciudad de residencia: </label>    
+    <select>
+        <option>Caldas</option>
+        <option>Cali</option>
+        <option>Medellín</option>
+        <option>Bogotá</option>
+        <option>Barranquilla</option>
+        <option>Bucaramanga</option>
+        <option>Cartagena</option>
+    </select> 
+    <br>
+    <label for="Comentarios"> Comentarios: </label>
+    <br>
+    <textarea name="Comentarios" id="Comentarios" placeholder="Escribe aquí tu comentario..." rows="10" cols="30"></Textarea>
+    <br>
+    <input type="submit" value="Enviar formulario">
+    <input type="reset" value="Reiniciar">   
+
+    <main>
+    <br>
+    <footer>
+     Wilmer Meneses Gaviria 
+    <br> wmeneses@cesde.net 
+    </footer>
+    
+</body>
+
+</form>
