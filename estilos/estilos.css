@@ -56,10 +56,8 @@ header{
 .index:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
 .tablas {background-image: linear-gradient(to right, #6c757d, #adb5bd);} 
 .tablas:hover {background-image: linear-gradient(to right, #848b92, #adb5bd);}
-.listas {background-image: linear-gradient(to right, #007bff, #4ab2e2);} 
-.listas:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
-.formularios {background-image: linear-gradient(to right, #6c757d, #adb5bd);} 
-.formularios:hover {background-image: linear-gradient(to right, #848b92, #adb5bd);}
+.formularios {background-image: linear-gradient(to right, #007bff, #4ab2e2);} 
+.formularios:hover {background-image: linear-gradient(to right, #007bff, #4ab2e2);}
 
 /* Formato imagenes iniciales */
 .imagenesincio{
@@ -127,9 +125,9 @@ box-shadow: 0px 3px 15px 3px black;
 }
 
 
-/* ====== ESTILOS LOGIN Y REGISTRO ====== */
+/* Formato login y registro */
 
-.login, .register {
+.login, .register{
     width: 350px;
     margin: 40px auto; /* centrado horizontal */
     background-color: #f9f9f9;
@@ -189,11 +187,10 @@ box-shadow: 0px 3px 15px 3px black;
 
 /* ====== Registro ====== */
 
-/* Contenedor general de la página de registro */
 .register-page {
     display: flex;
-    justify-content: center;   /* Centra horizontalmente */
-    margin: 40px 0;            /* Espacio arriba y abajo */
+    justify-content: center;   
+    margin: 40px 0;            
 }
 
 /* Caja del formulario de registro */
