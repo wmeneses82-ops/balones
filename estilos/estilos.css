@@ -126,6 +126,135 @@ border-radius: 20px;
 box-shadow: 0px 3px 15px 3px black;
 }
 
+
+/* ====== ESTILOS LOGIN Y REGISTRO ====== */
+
+.login, .register {
+    width: 350px;
+    margin: 40px auto; /* centrado horizontal */
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.login h1, .register h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003247;
+}
+
+/* Grupos de campos */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botones */
+.btn-login, .btn-register {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover, .btn-register:hover {
+    background-color: #0056b3;
+}
+
+
+/* ====== Registro ====== */
+
+/* Contenedor general de la página de registro */
+.register-page {
+    display: flex;
+    justify-content: center;   /* Centra horizontalmente */
+    margin: 40px 0;            /* Espacio arriba y abajo */
+}
+
+/* Caja del formulario de registro */
+.register {
+    width: 400px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Título */
+.register h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003247;
+}
+
+/* Grupos de campos */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botón de registro */
+.btn-register {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+}
+
+
 /* Reglas para celular */
 
 @media(max-width:450px)
